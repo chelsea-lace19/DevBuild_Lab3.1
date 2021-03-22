@@ -11,11 +11,9 @@ namespace Lab3._1
 
             while (!done)
             {
-
                 string[] students = { "Chelsea", "Alissa", "Grady", "Burke" };
                 string[] faveFood = { "Pizza", "Tacos", "Tuna", "Everything"};
                 string[] faveHobby = { "Snowboarding", "Rock Climbing", "Bird Watching", "Napping" };
-
 
                 Console.WriteLine("Which student would you like to learn more about? (enter a number 0-3): ");
                 try
@@ -28,8 +26,6 @@ namespace Lab3._1
                         Console.WriteLine("Which student would you like to learn more about? (enter a number 0-3): ");
                         selection = Int32.Parse(Console.ReadLine());
                     }
-
-
 
                     Console.WriteLine($"Student {selection} is {students[selection]}");
                     Console.WriteLine($"What would you like to know about {students[selection]}?");
